@@ -45,7 +45,7 @@ const MainMint = ({ accounts, setAccounts }) => {
     return (
         <div className='justify-center mt-40 grid grid-row-4'>
             <h1 className='text-2xl mb-3'>MetaMoney</h1>
-            <p className='pl-52 pr-52 mb-5'>METAMONEY HELPS GAMERS EARN REAL MONEY WHILE DOING WHAT THEY LOVE.PLAY GAMES LIKE AXIE INFINITY, PUBG,CLASH OF CLANS, CALL OF DUTY </p>
+            <p className='pl-22 pr-22 mb-5 meta-text'>METAMONEY HELPS GAMERS EARN REAL MONEY WHILE DOING WHAT THEY LOVE.PLAY GAMES LIKE AXIE INFINITY, PUBG,CLASH OF CLANS, CALL OF DUTY </p>
             {isConnected ? (
                 <div>
                     <div>

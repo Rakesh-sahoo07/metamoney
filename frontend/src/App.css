@@ -37,3 +37,14 @@ body {
     background-attachment: fixed;
     background-position: 40% 40%;
 }
+
+.meta-text{
+    background-color: rgba(175, 39, 193, 0.5);
+    margin: 0px 170px;
+    padding: 4px;
+    border: 3px dashed rgb(31, 11, 34);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}

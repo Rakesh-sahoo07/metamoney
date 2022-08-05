@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainMint from "./MainMint";
+import GamePage from "./gamepage";
 import NavBar from "./NavBar";
 function App() {
   const [accounts, setAccounts] = useState([]);
@@ -11,6 +13,9 @@ function App() {
           <MainMint accounts={accounts} setAccounts={setAccounts} />
         </div>
         <div className="background"></div>
+        <div>
+        
+        </div>
       </div>
 
 
